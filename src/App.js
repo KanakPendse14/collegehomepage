@@ -26,11 +26,21 @@
 import React from 'react';
 import Header from './components/header';
 import './App.css'; 
+import Footer from './components/footer';
+
+import Courses from './components/courses';
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <Courses/>
+
+      <h3>
+        Hello
+      </h3>
+      <h4>Hello</h4>
+      
       {/* Other content of your website */}
     </div>
   );

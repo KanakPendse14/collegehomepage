@@ -1,46 +1,8 @@
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
 /* app.css */
 
 /* Style for the header */
 header {
-  background-color: #333;
+  background-color: #1b3059;
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -48,13 +10,23 @@ header {
 
 /* Style for the website name */
 h1 {
+  text-align: left;
+  text-decoration: dotted;
   margin: 0;
+ 
+
 }
 
 /* Style for the navigation links */
 nav ul {
+  text-align: right;
   list-style-type: none;
+  text-shadow: #08276a;
   padding: 0;
+}
+nav ul:hover{
+ text-align: right;
+
 }
 
 nav ul li {
@@ -66,3 +38,54 @@ nav ul li a {
   text-decoration: none;
   color: #fff;
 }
+
+/* Footercss */
+
+
+/* styles.css */
+
+.footer {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+/* Courses.css */
+
+.courses-container {
+  position: relative;
+}
+
+.background-image {
+  background-image: url('C:\Users\DELL\Desktop\IPExperiments1,2\collegehomepage\collegehomepage\collegehomepage\public\courses.png'); /* Replace with your actual image path */
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  position: relative;
+}
+
+.centered-text {
+ 
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.centered-text h2 {
+  font-size: 2em;
+}
+
+.centered-text input {
+  width: 300px;
+  padding: 10px;
+  font-size: 1em;
+}
+
+
