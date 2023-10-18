@@ -31,20 +31,26 @@ import Footer from './components/footer';
 
 import Courses from './components/courses';
 import Detail from './components/detail';
+import ContactUs from './components/contactus';
+
+
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
+      
+      <div>
+        {/* <Home/> */}
       <Header />
       <Courses/>
       <Detail/>
+     
 
-      <h3>
-        Hello
-      </h3>
-      <h4>Hello</h4>
+      <ContactUs/>
+      
       <Footer/>
-      {/* Other content of your website */}
+      
+    </div>
     </div>
   );
 }
