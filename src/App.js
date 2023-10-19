@@ -32,23 +32,36 @@ import Footer from './components/footer';
 import Courses from './components/courses';
 import Detail from './components/detail';
 import ContactUs from './components/contactus';
+import { BrowserRouter } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
 
 
 
 function App() {
+  
   return (
     <div className='App'>
       
       <div>
         {/* <Home/> */}
-      <Header />
-      <Courses/>
+      
+      <BrowserRouter>
+      <Header/>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/' element={<ContactUs/>}>
+
+        </Route>
+      </Routes>
+      </BrowserRouter>
+      {/* <Courses/>
       <Detail/>
      
 
       <ContactUs/>
       
-      <Footer/>
+      <Footer/> */}
       
     </div>
     </div>
