@@ -8,7 +8,7 @@ function Header() {
       <h1>MyCollege</h1>
       <nav>
         <ul>
-          <li><a href="Home">Home</a></li>
+          <li><a href="/">Home</a></li>
           <li><a href="department">department</a></li>
           <li><a href="#">Councils</a></li>
           <li><a href="contactus">Contact</a></li>

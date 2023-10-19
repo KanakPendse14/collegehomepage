@@ -35,6 +35,7 @@ import ContactUs from './components/contactus';
 import { BrowserRouter } from 'react-router-dom';
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
+import contact from './pages/Contactus'
 
 
 
@@ -44,17 +45,16 @@ function App() {
     <div className='App'>
       
       <div>
-        {/* <Home/> */}
-      
       <BrowserRouter>
-      <Header/>
       <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/' element={<ContactUs/>}>
+        <Route path='/' element={<Home/>}>
+        {/* <Route path='/' element={<Contactus/>}/> */}
 
         </Route>
       </Routes>
+    
       </BrowserRouter>
+      
       {/* <Courses/>
       <Detail/>
      

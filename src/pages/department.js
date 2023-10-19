@@ -6,9 +6,9 @@ function department() {
   return (
     <div>
       <Header/>
-      <div>
-        <Footer/>
-      </div>
+      
+      <Footer/>
+      
     </div>
   )
 }
