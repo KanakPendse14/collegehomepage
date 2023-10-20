@@ -1,29 +1,3 @@
-// import logo from './logo.svg';
-// import './App.css';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;
-
 import React from 'react';
 import Header from './components/header';
 import './App.css'; 
@@ -31,39 +5,20 @@ import Footer from './components/footer';
 
 import Courses from './components/courses';
 import Detail from './components/detail';
-import ContactUs from './components/contactus';
-import { BrowserRouter } from 'react-router-dom';
-import { Route, Routes } from 'react-router-dom';
+// import ContactUs from './components/contactus';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Combine imports
+
 import Home from './pages/Home';
-import contact from './pages/Contactus'
-
-
+import Contactus from './pages/Contactus'; // Correct import path
 
 function App() {
-  
   return (
     <div className='App'>
-      
-      <div>
-      <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<Home/>}>
-        {/* <Route path='/' element={<Contactus/>}/> */}
-
-        </Route>
-      </Routes>
-    
-      </BrowserRouter>
-      
-      {/* <Courses/>
-      <Detail/>
-     
-
-      <ContactUs/>
-      
-      <Footer/> */}
-      
-    </div>
+      <Router>
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+        </Routes>
+      </Router>
     </div>
   );
 }

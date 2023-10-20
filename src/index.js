@@ -24,9 +24,6 @@
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(<App />);
-
-
-
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -40,11 +37,9 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        
+
           <Route index element={<Home />} />
-          <Route path="contact" element={<ContactUs />} />
-          
-       
+          <Route path="contactus" element={<ContactUs />} />
       </Routes>
     </BrowserRouter>
   );
