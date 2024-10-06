@@ -1,5 +1,4 @@
 import React from 'react';
-// import './Footer.css'; // Assuming you'll add some custom styles for the footer
 
 const Footer = () => {
   return (
@@ -9,7 +8,7 @@ const Footer = () => {
         <div className="footer-section">
           <h3>About VESIT</h3>
           <p>
-            Vivekanand Education Society's Institute of Technology (VESIT) is a leading institute providing quality education in engineering and technology. Established in [Year], the institute has been a center of excellence, nurturing talent and fostering innovation.
+            Vivekanand Education Society's Institute of Technology (VESIT) is a leading institute providing quality education in engineering and technology. The institute has been a center of excellence, nurturing talent and fostering innovation.
           </p>
         </div>
 
