@@ -39,10 +39,10 @@ function App() {
       <Courses/>
       <Detail/>
 
-      <h3>
+      {/* <h3>
         Hello
       </h3>
-      <h4>Hello</h4>
+      <h4>Hello</h4> */}
       <Footer/>
       {/* Other content of your website */}
     </div>

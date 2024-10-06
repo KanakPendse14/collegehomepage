@@ -8,7 +8,8 @@ const Courses = () => {
     <div className="courses-container">
       <div className="background-image">
         <div className="centered-text">
-          <h1>Wellcome to Vivekanand Institute Of Technology</h1>
+          <h1>Welcome to Vivekanand Institute Of Technology</h1>
+          
           <h2>Search Your Branch</h2>
           <input type="text" placeholder="Enter your branch" />
           <div className='department'>
